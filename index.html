@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greenie - Eco-Friendly Shopping Assistant</title>
+    <script async src="https://cse.google.com/cse.js?cx=e3c8b57751bc74d7b"></script>
+    <style>
+      /* Google CSE Custom Styling */
+      .gsc-control-cse {
+        padding: 0 !important;
+        border: none !important;
+        background: transparent !important;
+        font-family: system-ui, -apple-system, sans-serif !important;
+      }
+      
+      /* Hide the default Google search box when we're using our own */
+      .gsc-search-box {
+        display: none !important;
+      }
+      
+      /* Style the search results container */
+      .gsc-results-wrapper-overlay, .gsc-results-wrapper-visible {
+        border: none !important;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+        border-radius: 8px !important;
+      }
+      
+      /* Style the individual search results */
+      .gsc-result {
+        padding: 1.5rem !important;
+        border-bottom: 1px solid #e5e7eb !important;
+        transition: background-color 0.2s ease !important;
+      }
+      
+      .gsc-result:hover {
+        background-color: #f0fdf4 !important; /* Light emerald/green background on hover */
+      }
+      
+      /* Style the titles in the search results */
+      .gs-title {
+        font-size: 1.25rem !important;
+        color: #065f46 !important; /* Emerald/green color */
+        text-decoration: none !important;
+        font-weight: 600 !important;
+      }
+      
+      .gs-title:hover {
+        text-decoration: underline !important;
+      }
+      
+      /* Style the result snippets */
+      .gs-snippet {
+        color: #4b5563 !important;
+        font-size: 0.9rem !important;
+        line-height: 1.5 !important;
+      }
+      
+      /* Hide the URL at the top */
+      .gsc-url-top {
+        display: none !important;
+      }
+      
+      /* Style the URL at the bottom */
+      .gs-visibleUrl {
+        color: #10b981 !important; /* Emerald/green URL */
+        font-size: 0.8rem !important;
+      }
+      
+      /* Style the pagination */
+      .gsc-cursor-box {
+        margin-top: 1.5rem !important;
+        text-align: center !important;
+      }
+      
+      .gsc-cursor-page {
+        color: #065f46 !important;
+        background-color: white !important;
+        border: 1px solid #d1fae5 !important;
+        border-radius: 4px !important;
+        padding: 0.25rem 0.5rem !important;
+        margin: 0 0.25rem !important;
+        transition: all 0.2s ease !important;
+        font-weight: 500 !important;
+      }
+      
+      .gsc-cursor-page:hover {
+        background-color: #ecfdf5 !important;
+        border-color: #10b981 !important;
+      }
+      
+      .gsc-cursor-current-page {
+        background-color: #10b981 !important;
+        color: white !important;
+        border-color: #10b981 !important;
+      }
+      
+      /* Style the thumbnail images */
+      .gs-image-box {
+        padding-right: 1rem !important;
+      }
+      
+      .gs-image {
+        border-radius: 8px !important;
+        border: 1px solid #d1fae5 !important;
+      }
+      
+      /* Add a "verified sustainable" badge-like element */
+      .gs-title::after {
+        content: "Eco-Friendly";
+        display: inline-block;
+        margin-left: 8px;
+        font-size: 0.7rem;
+        padding: 0.1rem 0.4rem;
+        border-radius: 9999px;
+        background-color: #d1fae5;
+        color: #065f46;
+        vertical-align: middle;
+        font-weight: 500;
+      }
+      
+      /* Style "no results" messaging */
+      .gs-no-results-result {
+        background-color: #f0fdf4 !important;
+        border: 1px solid #d1fae5 !important;
+        border-radius: 8px !important;
+        padding: 1.5rem !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <div style="text-align: center; margin-top: 2rem; padding: 1rem; color: #065f46; font-family: system-ui, -apple-system, sans-serif;">
+      <p>Created by: SHIVAM KUMAR</p>
+      <p>Registration No. 12303176</p>
+    </div>
+  </body>
+</html>
